@@ -1,11 +1,11 @@
-/* Блок 1 */
+/* Р‘Р»РѕРє 1 */
 #block1 {
     background: linear-gradient(135deg, #0A0A0A, #D4AF37);
     color: #AA8F32;
     font-family: 'MS Reference Specialty', sans-serif;
     font-style: italic;
     font-weight: lighter;
-    font-size: calc(16px + 1vw); /* адаптивний шрифт */
+    font-size: calc(16px + 1vw); /* Р°РґР°РїС‚РёРІРЅРёР№ С€СЂРёС„С‚ */
     padding: 1em;
     text-align: left;
     width: 100%;
@@ -16,7 +16,7 @@
     margin: 0 auto;
 }
 
-/* Блок 7 */
+/* Р‘Р»РѕРє 7 */
 #block7 {
     background: linear-gradient(135deg, #0A0A0A, #D4AF37);
     color: #0A0A0A;
@@ -44,7 +44,7 @@
     margin: 0;
 }
 
-/* Блок 2: меню зліва */
+/* Р‘Р»РѕРє 2: РјРµРЅСЋ Р·Р»С–РІР° */
 .block2 {
     flex: 1.5;
     background: linear-gradient(135deg, #FAFAD2, #0A0A0A );
@@ -55,7 +55,7 @@
     min-width: 0;
 }
 
-/* Середній стовпець: блок 3 і блок 5 */
+/* РЎРµСЂРµРґРЅС–Р№ СЃС‚РѕРІРїРµС†СЊ: Р±Р»РѕРє 3 С– Р±Р»РѕРє 5 */
 .left-column {
     flex: 2.5;
     display: flex;
@@ -65,7 +65,7 @@
     min-width: 0;
 }
 
-/* Блок 3 */
+/* Р‘Р»РѕРє 3 */
 .block3 {
     background-color: black;
     color: #FAFAD2;
@@ -78,14 +78,14 @@
     word-break: break-word;
 }
 
-/* Блок 5 */
+/* Р‘Р»РѕРє 5 */
 .block5 {
     background: linear-gradient(135deg, #F8F4E3, #D4AF37);
     min-height: 343px;
     text-align: center;
     width: 100%;
     box-sizing: border-box;
-    overflow-x: auto; /* горизонтальний скрол при довгому контенті */
+    overflow-x: auto; /* РіРѕСЂРёР·РѕРЅС‚Р°Р»СЊРЅРёР№ СЃРєСЂРѕР» РїСЂРё РґРѕРІРіРѕРјСѓ РєРѕРЅС‚РµРЅС‚С– */
     height: auto;
     flex-grow: 1;
     padding: 10px;
@@ -93,7 +93,7 @@
     word-break: break-word;
 }
 
-/* Правий стовпець: блок 4 і блок 6 */
+/* РџСЂР°РІРёР№ СЃС‚РѕРІРїРµС†СЊ: Р±Р»РѕРє 4 С– Р±Р»РѕРє 6 */
 .right-column {
     flex: 1.5;
     display: flex;
@@ -103,7 +103,7 @@
     min-width: 0;
 }
 
-/* Блок 4 */
+/* Р‘Р»РѕРє 4 */
 .block4 {
     background: linear-gradient(135deg, #FAFAD2, #0A0A0A );
     text-align: center;
@@ -116,7 +116,7 @@
     height: auto;
 }
 
-/* Блок 6 */
+/* Р‘Р»РѕРє 6 */
 .block6 {
     background: linear-gradient(135deg, #FAFAD2, #0A0A0A );
     min-height: 162px;
@@ -127,7 +127,7 @@
     flex-grow: 1;
 }
 
-/* Картинка в блоці 4 */
+/* РљР°СЂС‚РёРЅРєР° РІ Р±Р»РѕС†С– 4 */
 .block4-img {
     width: 100%;
     max-width: 170px;
@@ -135,16 +135,16 @@
     border-radius: 50%;
 }
 
-/* Картинка в блоці 5 */
 .makeup-img {
-    width: 100%;
-    max-width: 67%;
-    height: auto;
+    width: 100%; /* Р·Р°Р№РјР°С” РІСЃСЋ С€РёСЂРёРЅСѓ РєРѕРЅС‚РµР№РЅРµСЂР° */
+    max-width: 300px; /* РјР°РєСЃРёРјР°Р»СЊРЅР° С€РёСЂРёРЅР° */
+    min-width: 200px; /* РјС–РЅС–РјР°Р»СЊРЅР° С€РёСЂРёРЅР° РґР»СЏ Р°РґРµРєРІР°С‚РЅРѕРіРѕ РїРµСЂРµРіР»СЏРґСѓ */
+    height: auto; /* РїСЂРѕРїРѕСЂС†С–Р№РЅРѕ РїС–РґР»Р°С€С‚РѕРІСѓС”С‚СЊСЃСЏ РІРёСЃРѕС‚Р° */
     border-radius: 10px;
     margin-top: 10px;
 }
 
-/* Стилізація заголовку меню */
+/* РЎС‚РёР»С–Р·Р°С†С–СЏ Р·Р°РіРѕР»РѕРІРєСѓ РјРµРЅСЋ */
 .menu-title {
     color: darkgrey;
     font-size: 1.5em;
@@ -153,7 +153,7 @@
     margin-bottom: 10px;
 }
 
-/* Стилізація посилань */
+/* РЎС‚РёР»С–Р·Р°С†С–СЏ РїРѕСЃРёР»Р°РЅСЊ */
 .menu-list a {
     color: darkred;
     font-size: 1em;
@@ -168,7 +168,7 @@
         color: orange;
     }
 
-/* Вступний абзац блоку 6 */
+/* Р’СЃС‚СѓРїРЅРёР№ Р°Р±Р·Р°С† Р±Р»РѕРєСѓ 6 */
 .block6 .intro-text {
     color: #FFF8E7;
     font-size: 16px;
@@ -176,7 +176,7 @@
     margin-bottom: 0px;
 }
 
-/* Список всередині блоку 6 */
+/* РЎРїРёСЃРѕРє РІСЃРµСЂРµРґРёРЅС– Р±Р»РѕРєСѓ 6 */
 .block6 .care-list {
     color: darkred;
     font-size: 16px;
@@ -185,14 +185,24 @@
     margin-bottom: 0px;
 }
 
-/* Блоки з текстом */
+/* Р‘Р»РѕРєРё Р· С‚РµРєСЃС‚РѕРј */
 .block2 p, .block3 p, .block4 p, .block5 p, .block6 p {
     white-space: normal;
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
 
-/* Flex для картинок та підписів */
+.block5 p, .block6 p {
+    font-family: Arial, sans-serif; /* СЏРє Сѓ Р±Р»РѕС†С– 3 */
+    font-size: 16px; /* С‚СЂРѕС…Рё Р·РјРµРЅС€РёРјРѕ, С‰РѕР± РЅРµ Р»Р°РјР°РІСЃСЏ СЂСЏРґРѕРє */
+    line-height: 1.5; /* РІС–РґСЃС‚Р°РЅСЊ РјС–Р¶ СЂСЏРґРєР°РјРё */
+    word-wrap: break-word; /* Р°РІС‚РѕРјР°С‚РёС‡РЅРёР№ РїРµСЂРµРЅРѕСЃ СЃР»С–РІ */
+    overflow-wrap: break-word;
+    white-space: normal; /* РґРѕР·РІРѕР»СЏС” РїРµСЂРµРЅРѕСЃ СЂСЏРґРєС–РІ */
+    text-align: left; /* Р°Р±Рѕ center, СЏРєС‰Рѕ С…РѕС‡РµС€ РІРёСЂС–РІРЅСЋРІР°РЅРЅСЏ */
+}
+
+/* Flex РґР»СЏ РєР°СЂС‚РёРЅРѕРє С‚Р° РїС–РґРїРёСЃС–РІ */
 .makeup-container {
     display: flex;
     align-items: flex-start;
@@ -221,7 +231,7 @@
     min-width: 0;
 }
 
-/* Квадратна картинка */
+/* РљРІР°РґСЂР°С‚РЅР° РєР°СЂС‚РёРЅРєР° */
 .block4-img-square {
     width: 100%;
     max-width: 270px;
@@ -230,7 +240,8 @@
     object-fit: cover;
 }
 
-/* Посилання в блоці 5 */
+/* РџРѕСЃРёР»Р°РЅРЅСЏ РІ Р±Р»РѕС†С– 5 */
 a {
     color: darkgray;
 }
+
